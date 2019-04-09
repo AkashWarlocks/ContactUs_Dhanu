@@ -6,3 +6,5 @@ let contactUsHandler = require('../handlers/contactUs_handler')
 router.post('/contactUs', (req,res)=>{
     contactUsHandler.contactUs(req,res)
 })
+
+module.exports = router
